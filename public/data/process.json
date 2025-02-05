@@ -1,0 +1,22 @@
+[
+    {
+        "img": "/stock_icons/profile-icon.svg",
+        "title": "Sign Up",
+        "description": "Create an account by entering your email and password. Confirm your password, verify your email, and complete your registration in minutes.And there you go"
+    },
+    {
+        "img": "/stock_icons/lens-icon.svg",
+        "title": "Search Job",
+        "description": "Explore a vast array of job opportunities. Use filters and keywords to narrow down your search and find roles that match your skills."
+    },
+    {
+        "img": "/stock_icons/document-icon.svg",
+        "title": "Upload CV/Resume",
+        "description": "Easily upload your CV or resume to showcase your skills and experience. A well-crafted resume increases your chances of landing the perfect job."
+    },
+    {
+        "img": "/stock_icons/briefcase-icon.svg",
+        "title": "Get Job",
+        "description": "Apply to jobs with a single click. Track your applications, attend interviews, and secure your ideal position quickly and efficiently."
+    }
+]

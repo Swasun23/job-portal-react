@@ -1,0 +1,51 @@
+[
+    {
+        "img": "🎨",
+        "title": "design",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "📈",
+        "title": "Sales",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "📣",
+        "title": "Marketing",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "💼",
+        "title": "Finance",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "🚗",
+        "title": "Automobile",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "🚚",
+        "title": "Logistics/Delivery",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "🗂️",
+        "title": "Admin",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    },
+    {
+        "img": "🏗️",
+        "title": "Construction",
+        "description": "120+ openings",
+        "hoverEnabled": true
+    }
+]
+
