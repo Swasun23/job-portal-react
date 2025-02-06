@@ -1,0 +1,58 @@
+[
+    {
+        "companyLogo": "/company-icons/ey-logo.svg",
+        "companyName": "EY",
+        "location": "Mumbai",
+        "role": "Data Scientist",
+        "description": "Analyze large datasets to extract insights and inform business decisions. Develop predictive models and algorithms.",
+        "positions": "4",
+        "jobtype": "Contract",
+        "salary": "5-7 Lakhs",
+        "experience": "5 Years",
+        "company_type": "Corporate",
+        "nature": "WFO",
+        "filterable": ["l-4", "jt-4", "slry-3", "ct-4"]
+    },
+    {
+        "companyLogo": "/company-icons/figma-logo.svg",
+        "companyName": "Figma",
+        "location": "Ahmedabad",
+        "role": "Backend Developer",
+        "description": "Develop and maintain server-side logic, databases, and APIs. Ensure high performance and responsiveness of applications.",
+        "positions": "2",
+        "jobtype": "Full-time",
+        "salary": "7-10 Lakhs",
+        "experience": "2 Years",
+        "company_type": "Startup",
+        "nature": "WFO",
+        "filterable": ["l-3", "jt-1", "slry-4", "ct-1"]
+    },
+    {
+        "companyLogo": "/company-icons/netflix-logo.svg",
+        "companyName": "Netflix",
+        "location": "Bengaluru",
+        "role": "Frontend Developer",
+        "description": "Develop and maintain user-facing features for web applications. Ensure high performance and responsiveness of applications.",
+        "positions": "3",
+        "jobtype": "Part-time",
+        "salary": "5-7 Lakhs",
+        "experience": "2 Years",
+        "company_type": "Foreign MNC",
+        "nature": "WFO",
+        "filterable": ["l-2", "jt-2", "slry-3", "ct-2"]
+    },
+    {
+        "companyLogo": "/company-icons/google-logo.svg",
+        "companyName": "Google",
+        "location": "Kolkata",
+        "role": "DevOps Engineer",
+        "description": "Implement and manage CI/CD pipelines. Ensure the reliability and scalability of infrastructure.",
+        "positions": "2",
+        "jobtype": "Internship",
+        "salary": "3-5 Lakhs",
+        "experience": "2 Years",
+        "company_type": "Foreign MNC",
+        "nature": "WFO",
+        "filterable": ["l-7", "jt-3", "slry-2", "ct-2"]
+    }
+]

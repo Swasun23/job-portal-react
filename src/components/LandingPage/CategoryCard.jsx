@@ -7,8 +7,8 @@ const CategoryCard = ({ img, title, description,hoverEnabled }) => {
       ${hoverEnabled ? 'hover:shadow-2xl hover:scale-105 hover:bg-purple-800 hover:text-white transition-transform duration-300' : ''}`}
     >
       <div className="text-left">
-        <div className="text-3xl mb-4">{img}</div>
-        <h3 className="text-xl font-extrabold mb-2 break-words">{title}</h3>
+        <div className="text-2xl lg:text-3xl mb-4">{img}</div>
+        <h3 className="text-lg lg:text-xl font-extrabold mb-2 break-words">{title}</h3>
         <p>{description}</p>
       </div>
     </div>

@@ -1,14 +1,18 @@
-import './App.css'
-import { Button } from "@/components/ui/button"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import Mainpage from "./pages/MainPage";
+import Jobinfopage from "./pages/JobinfoPage";
 
 function App() {
   return (
-    <>
-      <div>
-      <Button className="p-10">Click me</Button>
-    </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/jobs" element={<Mainpage />} />
+        <Route path="/jobs-info" element={<Jobinfopage />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

@@ -1,9 +1,10 @@
+import { useState, useEffect } from "react";
 import NavBar from "@/components/LandingPage/NavBar";
 import Filterdock from "@/components/MainPage/FIlterdock";
-import { useState, useEffect } from "react";
 import filterData from "../assets/data/filterdata.jsx";
 import Jobcard from "@/components/Jobcard";
 import Footer from "@/components/Footer.jsx";
+import BottomDrawer from "@/components/MainPage/BottomDrawer.jsx";
 
 const MainPage = () => {
   const [selectedItems, setSelectedItems] = useState(
@@ -14,15 +15,61 @@ const MainPage = () => {
       return acc;
     }, {})
   );
-  const [jobs, setjobsData] = useState([]);
+
+  const [jobs, setJobsData] = useState([]); // All jobs
+  const [currentPage, setCurrentPage] = useState(1);
+  const [jobsPerPage, setJobsPerPage] = useState(10); // Default jobs per page
+
   useEffect(() => {
-    fetch("/data/jobs.json") // If the file is in the `public/` folder
-      .then((response) => response.json()) // Convert response to JSON
+    fetch("/data/jobs.json")
+      .then((response) => response.json())
       .then((data) => {
-        setjobsData(data);
+        // Apply filtering logic
+        console.log("Selected Items:", JSON.stringify(selectedItems, null, 2));
+        const filteredJobs = data.filter((job) => {
+          return Object.keys(selectedItems).every((filterKey) => {
+            if (!selectedItems[filterKey]) return true; // If filter is not selected, include all
+            
+            // Check if job's filterable list contains the selected filter id
+            return job.filterable.includes(filterKey);
+          });
+        });
+  
+         setJobsData(filteredJobs);
       })
-      .catch((error) => console.error("Error fetching JSON:", error));
+      .catch((error) => console.error("Error fetching jobs data:", error));
+  }, [selectedItems]); // Runs whenever selectedItems changes
+
+  // Update jobs per page based on screen width
+  useEffect(() => {
+    const updateJobsPerPage = () => {
+      if (window.innerWidth >= 1536) setJobsPerPage(15); // 2XL
+      else if (window.innerWidth >= 1024) setJobsPerPage(10); // LG
+      else setJobsPerPage(8); // Mobile & smaller screens
+    };
+
+    updateJobsPerPage();
+    window.addEventListener("resize", updateJobsPerPage);
+    return () => window.removeEventListener("resize", updateJobsPerPage);
   }, []);
+
+  // Calculate total pages
+  const totalPages = Math.ceil(jobs.length / jobsPerPage);
+
+  // Get jobs for the current page
+  const paginatedJobs = jobs.slice(
+    (currentPage - 1) * jobsPerPage,
+    currentPage * jobsPerPage
+  );
+
+  // Handle next & previous buttons
+  const goToNextPage = () => {
+    if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
+  };
+
+  const goToPreviousPage = () => {
+    if (currentPage > 1) setCurrentPage((prev) => prev - 1);
+  };
 
   return (
     <main className="bg-purple-200">
@@ -30,26 +77,28 @@ const MainPage = () => {
         <div className="bg-white">
           <NavBar />
         </div>
-        <div className="relative lg:hidden mt-5 left-5"> {/* hidden filter option*/ }
-            <button className="text-md text-white bg-purple-800 p-2 rounded">
-                Filter
-            </button>
+        
+        <div className="relative lg:hidden mt-5 left-5">
+          {/* Hidden filter option */}
+          <BottomDrawer
+            setSelectedItems={setSelectedItems}
+            selectedItems={selectedItems}
+          />
         </div>
+        
         <div className="flex flex-row mx-2 mt-2 mb-2">
+          {/* Sidebar Filter (Shown on Large Screens) */}
           <div className="hidden lg:block w-1/3 2xl:w-1/4 mx-auto xl:justify-items-center 2xl:mx-0 2xl:justify-end">
-            {" "}
-            {/* For filterDock */}
             <Filterdock
               selectedItems={selectedItems}
               setSelectedItems={setSelectedItems}
             />
           </div>
 
+          {/* Job Listings */}
           <div className="w-full lg:w-2/3 mx-1">
-            {" "}
-            {/* For job listings */}
-            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 content-stretch 2xl:content-start 2xl:justify-start 2xl:mx-0">
-              {jobs.map((job, index) => (
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
+              {paginatedJobs.map((job, index) => (
                 <Jobcard
                   key={index}
                   companylogo={job.companyLogo}
@@ -65,10 +114,38 @@ const MainPage = () => {
                 />
               ))}
             </div>
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="flex justify-center mt-6 space-x-4">
+                <button
+                  onClick={goToPreviousPage}
+                  disabled={currentPage === 1}
+                  className={`px-4 py-2 text-white rounded ${
+                    currentPage === 1 ? "bg-gray-400" : "bg-purple-800 hover:bg-purple-900"
+                  }`}
+                >
+                  Previous
+                </button>
+                <span className="text-gray-700 font-semibold">
+                  Page {currentPage} of {totalPages}
+                </span>
+                <button
+                  onClick={goToNextPage}
+                  disabled={currentPage === totalPages}
+                  className={`px-4 py-2 text-white rounded ${
+                    currentPage === totalPages ? "bg-gray-400" : "bg-purple-800 hover:bg-purple-900"
+                  }`}
+                >
+                  Next
+                </button>
+              </div>
+            )}
           </div>
         </div>
+
         <div className="bg-white">
-            <Footer />
+          <Footer />
         </div>
       </div>
     </main>

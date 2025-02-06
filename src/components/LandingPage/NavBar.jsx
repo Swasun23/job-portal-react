@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Brandlogo from './Brandlogo';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
-
+    const navigate = useNavigate();
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
@@ -11,7 +12,7 @@ const NavBar = () => {
     return (
         <>
             <div className='flex flex-row justify-between items-center p-4 font-bold text-gray-500 mx-3 2xl:text-2xl'>
-                <div><Brandlogo /></div>
+                <div onClick={() => navigate("/")}><Brandlogo /></div>
                 <div className='hidden lg:flex space-x-8 items-center'>
                     <a href="#home" className='text-gray-700 hover:text-gray-900'>Home</a>
                     <a href="#about" className='text-gray-700 hover:text-gray-900'>About</a>

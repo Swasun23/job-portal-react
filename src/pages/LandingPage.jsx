@@ -1,5 +1,4 @@
 import React from "react";
-import Brandlogo from "@/components/LandingPage/Brandlogo";
 import NavBar from "@/components/LandingPage/NavBar";
 import playicon from "/stock_icons/play-icon.svg";
 import JobFlex from "@/components/LandingPage/JobFlex";
@@ -10,10 +9,16 @@ import Jobcard from "@/components/Jobcard";
 import TestimonialCarousel from "@/components/LandingPage/Testimonialcarousal";
 import { Mail } from "lucide-react";
 import Footer from "@/components/Footer";
+
+import { useNavigate } from "react-router-dom";
+
 const LandingPage = () => {
+  const navigate = useNavigate();
+
   const [process_data, setProcessData] = React.useState([]);
   const [categories_data, setCategoriesData] = React.useState([]);
   const [jobs, setjobsData] = React.useState([]);
+
 
   useEffect(() => {
     fetch("/data/process.json") // If the file is in the `public/` folder
@@ -82,19 +87,19 @@ const LandingPage = () => {
             selected areas conveniently and get hired quickly.
           </p>
           <div className="flex flex-row justify-center items-center mt-5">
-            <button className="text-xs md:text-lg bg-purple-800 hover:scale-97 transition-transform duration-200 text-white font-bold px-3 py-2 md:py-4 md:px-8 lg:px-10  rounded-xl">
+            <button className="text-xs md:text-lg bg-purple-800 hover:scale-97 transition-transform duration-200 text-white font-bold px-3 py-2 md:py-4 md:px-8 lg:px-10  rounded-xl" onClick={() => navigate("/jobs")}>
               Browse Jobs
             </button>
             <div className="flex justify-center pl-3">
-              <button className="bg-purple-800 text-white font-bold px-1 py-1 md:py-2 md:px-2 lg:px-4 rounded-full md:ml-2 lg:ml-4 hover:scale-97 transition-transform duration-200">
+              <button className=" bg-purple-800 text-white font-bold px-2 py-2 md:py-2 md:px-2 lg:px-4 rounded-full md:ml-2 lg:ml-4 hover:scale-97 transition-transform duration-200">
                 <img
                   src={playicon}
-                  className="h-4 w-4 2xl:h-6"
+                  className="h-3 w-3 2xl:h-6"
                   alt="play icon"
                 />
               </button>
-              <span className="font-bold p-3">How it works?</span>
             </div>
+            <span className="font-bold p-3">How it works?</span>
           </div>
         </div>
         <div className="mt-10">
@@ -167,7 +172,7 @@ const LandingPage = () => {
         </div>
         <div className="mt-10">
           <div className="flex flex-col">
-            <button className="text-purple-800 font-bold text-end mb-5 xl:mr-10">
+            <button className="text-purple-800 font-bold text-end mb-5 xl:mr-10 2xl:mr-[30rem]" onClick={() => navigate("/jobs")}>
               View more
             </button>
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 content-stretch">
