@@ -1,0 +1,664 @@
+[
+  {
+    "id":"jb-1",
+    "companyLogo": "/company-icons/google-logo.svg",
+    "companyName": "Google",
+    "location": "Bengaluru",
+    "role": "Software Engineer",
+    "description": "Develop and maintain high-performance applications. Collaborate with teams, ensure best practices, and optimize software efficiency.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-2", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Google is a global technology leader focused on improving the ways people connect with information. Our mission is to organize the world's information and make it universally accessible and useful. We are committed to fostering an inclusive and diverse workplace where everyone can thrive.</p>",
+    "n_emps": "10000+ Employees",
+    "hq": "Mountain View, CA",
+    "reviews": [
+      {
+        "review": "Lack of clear communication from leadership",
+        "isgood": false
+      },
+      { "review": "Supportive management and leadership", "isgood": true },
+      { "review": "Competitive salary and great benefits", "isgood": true },
+      { "review": "Long and stressful working hours", "isgood": false }
+    ],
+    "totalApplicants": 150,
+    "benefits": [
+      { "perk": "Cafeteria", "icon": "/stock_icons/coffee-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-2",
+    "companyLogo": "/company-icons/salesforce-logo.svg",
+    "companyName": "Salesforce",
+    "location": "Hyderabad",
+    "role": "Cloud Engineer",
+    "description": "Design and implement cloud solutions for scalable systems.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "1-3 Lakhs",
+    "experience": "5 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-5", "jt-1", "slry-1", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Salesforce is a leading cloud-based software company dedicated to helping businesses build strong customer relationships. Our mission is to empower organizations with powerful CRM solutions that drive success. We foster a culture of trust, innovation, and inclusivity.</p>",
+    "n_emps": "50000+ Employees",
+    "hq": "Redmond, WA",
+    "reviews": [
+      { "review": "No proper work recognition", "isgood": false },
+      { "review": "Encourages creative thinking", "isgood": true },
+      { "review": "Micromanagement issues", "isgood": false },
+      { "review": "Challenging and exciting projects", "isgood": true }
+    ],
+    "totalApplicants": 200,
+    "benefits": [
+      { "perk": "Hybrid Work", "icon": "/stock_icons/home-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-3",
+    "companyLogo": "/company-icons/amazon-logo.svg",
+    "companyName": "Amazon",
+    "location": "Delhi NCR",
+    "role": "DevOps Engineer",
+    "description": "Ensure smooth CI/CD pipelines and infrastructure management.",
+    "positions": "4",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-1", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Amazon is a global technology and e-commerce leader focused on customer obsession, innovation, and operational excellence. Our mission is to be Earth's most customer-centric company, offering a vast selection of products, cloud computing services, and cutting-edge technologies. We foster a dynamic and inclusive workplace where ideas thrive.</p>",
+    "n_emps": "100000+ Employees",
+    "hq": "Seattle, WA",
+    "reviews": [
+      { "review": "Favoritism in promotions", "isgood": false },
+      { "review": "Flexible work hours", "isgood": true },
+      { "review": "Remote work options available", "isgood": true },
+      { "review": "Limited learning opportunities", "isgood": false }
+    ],
+    "totalApplicants": 300,
+    "benefits": [{ "perk": "Transport", "icon": "/stock_icons/car-icon.svg" }]
+  },
+  {
+    "id":"jb-4",
+    "companyLogo": "/company-icons/google-logo.svg",
+    "companyName": "Google",
+    "location": "Bengaluru",
+    "role": "Software Engineer",
+    "description": "Develop and maintain high-performance applications. Collaborate with teams, ensure best practices, and optimize software efficiency.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-2", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Google is a global technology leader focused on improving the ways people connect with information. Our mission is to organize the world's information and make it universally accessible and useful. We are committed to fostering an inclusive and diverse workplace where everyone can thrive.</p>",
+    "n_emps": "10000+ Employees",
+    "hq": "Mountain View, CA",
+    "reviews": [
+      { "review": "Company culture is amazing", "isgood": true },
+      { "review": "Insufficient training for new employees", "isgood": false },
+      { "review": "Toxic work environment", "isgood": false }
+    ],
+    "totalApplicants": 150,
+    "benefits": [
+      { "perk": "Cafeteria", "icon": "/stock_icons/coffee-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-5",
+    "companyLogo": "/company-icons/figma-logo.svg",
+    "companyName": "Figma",
+    "location": "Hyderabad",
+    "role": "Cloud Engineer",
+    "description": "Design and implement cloud solutions for scalable systems.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "5 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-5", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Figma is a cutting-edge design platform revolutionizing how teams create and collaborate. Our mission is to make design accessible to everyone, enabling seamless workflows in a digital-first world. We embrace innovation and a diverse, inclusive culture.</p>",
+    "n_emps": "50000+ Employees",
+    "hq": "Redmond, WA",
+    "reviews": [
+      { "review": "Unrealistic deadlines", "isgood": false },
+      { "review": "Frequent layoffs create job insecurity", "isgood": false },
+      { "review": "Opportunities for career growth", "isgood": true },
+      { "review": "Helpful and talented colleagues", "isgood": true }
+    ],
+    "totalApplicants": 200,
+    "benefits": [
+      { "perk": "Hybrid Work", "icon": "/stock_icons/home-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-22",
+    "companyLogo": "/company-icons/amazon-logo.svg",
+    "companyName": "Amazon",
+    "location": "Delhi NCR",
+    "role": "DevOps Engineer",
+    "description": "Ensure smooth CI/CD pipelines and infrastructure management.",
+    "positions": "4",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-1", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Amazon is a global technology and e-commerce leader focused on customer obsession, innovation, and operational excellence. Our mission is to be Earth's most customer-centric company, offering a vast selection of products, cloud computing services, and cutting-edge technologies. We foster a dynamic and inclusive workplace where ideas thrive.</p>",
+    "n_emps": "100000+ Employees",
+    "hq": "Seattle, WA",
+    "reviews": [
+      { "review": "No flexibility in work hours", "isgood": false },
+      { "review": "High workload with no extra compensation", "isgood": false },
+      { "review": "Slow decision-making process", "isgood": false },
+      { "review": "Great mentorship programs", "isgood": true },
+      { "review": "Overly bureaucratic and slow-moving", "isgood": false }
+    ],
+    "totalApplicants": 300,
+    "benefits": [{ "perk": "Transport", "icon": "/stock_icons/car-icon.svg" }]
+  },
+  {
+    "id":"jb-6",
+    "companyLogo": "/company-icons/spotify-logo.svg",
+    "companyName": "Spotify",
+    "location": "Mumbai",
+    "role": "Frontend Developer",
+    "description": "Build and enhance user interfaces for social media platforms.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-4", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Spotify is a global leader in music streaming, transforming the way people experience and discover audio content. Our mission is to connect artists and listeners through a seamless and personalized experience. We are committed to innovation, diversity, and creativity.</p>",
+    "n_emps": "70000+ Employees",
+    "hq": "Menlo Park, CA",
+    "reviews": [
+      {
+        "review": "Lack of innovation and outdated tech stack",
+        "isgood": false
+      },
+      { "review": "Work is recognized and appreciated", "isgood": true },
+      { "review": "Lack of career growth opportunities", "isgood": false },
+      { "review": "Diverse and inclusive workplace", "isgood": true }
+    ],
+    "totalApplicants": 180,
+    "benefits": [{ "perk": "Gym", "icon": "/stock_icons/gym-icon.svg" }]
+  },
+  {
+    "id":"jb-7",
+    "companyLogo": "/company-icons/airbnb-logo.svg",
+    "companyName": "Airbnb",
+    "location": "Bengaluru",
+    "role": "Frontend Engineer",
+    "description": "Build and optimize Airbnb's web platform with modern frontend technologies.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-2", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Airbnb is a leading global travel platform that connects people with unique accommodations and experiences. Our mission is to create a world where anyone can belong anywhere. We strive to build an inclusive and innovative workplace that fosters creativity and collaboration.</p>",
+    "n_emps": "6000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      {
+        "review": "Lack of innovation and outdated tech stack",
+        "isgood": false
+      },
+      { "review": "Work is recognized and appreciated", "isgood": true },
+      { "review": "Lack of career growth opportunities", "isgood": false },
+      { "review": "Diverse and inclusive workplace", "isgood": true }
+    ],
+    "totalApplicants": 180,
+    "benefits": [
+      { "perk": "Remote Work", "icon": "/stock_icons/home-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-8",
+    "companyLogo": "/company-icons/apple-logo.svg",
+    "companyName": "Apple",
+    "location": "Hyderabad",
+    "role": "iOS Developer",
+    "description": "Develop and enhance Apple's iOS applications with cutting-edge features.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-5", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Apple is a global technology innovator dedicated to designing world-class hardware, software, and services. Our mission is to create products that enrich lives and push the boundaries of what’s possible. We foster a culture of excellence, inclusion, and continuous learning.</p>",
+    "n_emps": "150000+ Employees",
+    "hq": "Cupertino, CA",
+    "reviews": [
+      { "review": "Toxic work environment", "isgood": false },
+      { "review": "Encourages upskilling and learning", "isgood": true },
+      { "review": "Unrealistic deadlines", "isgood": false },
+      { "review": "Frequent layoffs create job insecurity", "isgood": false }
+    ],
+    "totalApplicants": 250,
+    "benefits": [{ "perk": "Gym", "icon": "/stock_icons/gym-icon.svg" }]
+  },
+  {
+    "id":"jb-9",
+    "companyLogo": "/company-icons/figma-logo.svg",
+    "companyName": "Figma",
+    "location": "Mumbai",
+    "role": "Product Designer",
+    "description": "Design intuitive user interfaces and collaborate on Figma's innovative design platform.",
+    "positions": "1",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-4", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Figma is a cutting-edge design platform revolutionizing how teams create and collaborate. Our mission is to make design accessible to everyone, enabling seamless workflows in a digital-first world. We embrace innovation and a diverse, inclusive culture.</p>",
+    "n_emps": "1000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      { "review": "Too many unnecessary meetings", "isgood": false },
+      { "review": "Management is not supportive", "isgood": false },
+      { "review": "Strong focus on innovation", "isgood": true },
+      { "review": "High attrition rate", "isgood": false }
+    ],
+    "totalApplicants": 100,
+    "benefits": [
+      { "perk": "Flexible Hours", "icon": "/stock_icons/clock-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-10",
+    "companyLogo": "/company-icons/ibm-logo.svg",
+    "companyName": "IBM",
+    "location": "Chennai",
+    "role": "Cloud Architect",
+    "description": "Design and implement cloud solutions for enterprise clients.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "5 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-6", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>IBM is a global leader in technology and consulting, pioneering advancements in AI, cloud computing, and enterprise solutions. Our mission is to drive innovation that matters, empowering businesses and individuals through intelligent solutions and an inclusive work environment.</p>",
+    "n_emps": "280000+ Employees",
+    "hq": "Armonk, NY",
+    "reviews": [
+      {
+        "review": "Lack of innovation and outdated tech stack",
+        "isgood": false
+      },
+      { "review": "Work is recognized and appreciated", "isgood": true },
+      { "review": "Lack of career growth opportunities", "isgood": false },
+      { "review": "Diverse and inclusive workplace", "isgood": true }
+    ],
+    "totalApplicants": 300,
+    "benefits": [
+      { "perk": "Health Insurance", "icon": "/stock_icons/health-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-11",
+    "companyLogo": "/company-icons/netflix-logo.svg",
+    "companyName": "Netflix",
+    "location": "Delhi NCR",
+    "role": "Backend Engineer",
+    "description": "Build and optimize Netflix's content streaming backend systems.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-1", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Netflix is a world-renowned entertainment platform committed to bringing exceptional storytelling to audiences worldwide. Our mission is to entertain the world by delivering high-quality content and an unmatched viewing experience. We value creativity, collaboration, and a diverse workforce.</p>",
+    "n_emps": "12000+ Employees",
+    "hq": "Los Gatos, CA",
+    "reviews": [
+      { "review": "Too many unnecessary meetings", "isgood": false },
+      { "review": "Management is not supportive", "isgood": false },
+      { "review": "Strong focus on innovation", "isgood": true },
+      { "review": "High attrition rate", "isgood": false }
+    ],
+    "totalApplicants": 220,
+    "benefits": [
+      { "perk": "Paid Time Off", "icon": "/stock_icons/vacation-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-12",
+    "companyLogo": "/company-icons/airbnb-logo.svg",
+    "companyName": "Airbnb",
+    "location": "Bengaluru",
+    "role": "Frontend Engineer",
+    "description": "Build and optimize Airbnb's web platform with modern frontend technologies.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-2", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Airbnb is a leading global travel platform that connects people with unique accommodations and experiences. Our mission is to create a world where anyone can belong anywhere. We strive to build an inclusive and innovative workplace that fosters creativity and collaboration.</p>",
+    "n_emps": "6000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      { "review": "Lack of career growth opportunities", "isgood": false },
+      { "review": "Diverse and inclusive workplace", "isgood": true },
+      { "review": "Company policies are outdated", "isgood": false }
+    ],
+    "totalApplicants": 180,
+    "benefits": [
+      { "perk": "Remote Work", "icon": "/stock_icons/home-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-13",
+    "companyLogo": "/company-icons/apple-logo.svg",
+    "companyName": "Apple",
+    "location": "Hyderabad",
+    "role": "iOS Developer",
+    "description": "Develop and enhance Apple's iOS applications with cutting-edge features.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-5", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Apple is a global technology innovator dedicated to designing world-class hardware, software, and services. Our mission is to create products that enrich lives and push the boundaries of what’s possible. We foster a culture of excellence, inclusion, and continuous learning.</p>",
+    "n_emps": "150000+ Employees",
+    "hq": "Cupertino, CA",
+    "reviews": [
+      { "review": "Too many unnecessary meetings", "isgood": false },
+      { "review": "Management is not supportive", "isgood": false },
+      { "review": "Strong focus on innovation", "isgood": true },
+      { "review": "High attrition rate", "isgood": false }
+    ],
+    "totalApplicants": 250,
+    "benefits": [{ "perk": "Gym", "icon": "/stock_icons/gym-icon.svg" }]
+  },
+  {
+    "id":"jb-14",
+    "companyLogo": "/company-icons/figma-logo.svg",
+    "companyName": "Figma",
+    "location": "Mumbai",
+    "role": "Product Designer",
+    "description": "Design intuitive user interfaces and collaborate on Figma's innovative design platform.",
+    "positions": "1",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-4", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Figma is a cutting-edge design platform revolutionizing how teams create and collaborate. Our mission is to make design accessible to everyone, enabling seamless workflows in a digital-first world. We embrace innovation and a diverse, inclusive culture.</p>",
+    "n_emps": "1000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      { "review": "Favoritism in promotions", "isgood": false },
+      { "review": "Flexible work hours", "isgood": true },
+      { "review": "Remote work options available", "isgood": true },
+      { "review": "Limited learning opportunities", "isgood": false }
+    ],
+    "totalApplicants": 100,
+    "benefits": [
+      { "perk": "Flexible Hours", "icon": "/stock_icons/clock-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-15",
+    "companyLogo": "/company-icons/ibm-logo.svg",
+    "companyName": "IBM",
+    "location": "Chennai",
+    "role": "Cloud Architect",
+    "description": "Design and implement cloud solutions for enterprise clients.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "5 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-6", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>IBM is a global leader in technology and consulting, pioneering advancements in AI, cloud computing, and enterprise solutions. Our mission is to drive innovation that matters, empowering businesses and individuals through intelligent solutions and an inclusive work environment.</p>",
+    "n_emps": "280000+ Employees",
+    "hq": "Armonk, NY",
+    "reviews": [
+      { "review": "Encourages creative thinking", "isgood": true },
+      { "review": "Micromanagement issues", "isgood": false },
+      { "review": "Challenging and exciting projects", "isgood": true },
+      { "review": "Company culture is amazing", "isgood": true }
+    ],
+    "totalApplicants": 300,
+    "benefits": [
+      { "perk": "Health Insurance", "icon": "/stock_icons/health-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-16",
+    "companyLogo": "/company-icons/netflix-logo.svg",
+    "companyName": "Netflix",
+    "location": "Delhi NCR",
+    "role": "Backend Engineer",
+    "description": "Build and optimize Netflix's content streaming backend systems.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-1", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Netflix is a world-renowned entertainment platform committed to bringing exceptional storytelling to audiences worldwide. Our mission is to entertain the world by delivering high-quality content and an unmatched viewing experience. We value creativity, collaboration, and a diverse workforce.</p>",
+    "n_emps": "12000+ Employees",
+    "hq": "Los Gatos, CA",
+    "reviews": [
+      { "review": "Toxic work environment", "isgood": false },
+      { "review": "Encourages upskilling and learning", "isgood": true },
+      { "review": "Unrealistic deadlines", "isgood": false },
+      { "review": "Frequent layoffs create job insecurity", "isgood": false }
+    ],
+    "totalApplicants": 220,
+    "benefits": [
+      { "perk": "Paid Time Off", "icon": "/stock_icons/vacation-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-17",
+    "companyLogo": "/company-icons/airbnb-logo.svg",
+    "companyName": "Airbnb",
+    "location": "Bengaluru",
+    "role": "Frontend Engineer",
+    "description": "Build and optimize Airbnb's web platform with modern frontend technologies.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-2", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Airbnb is a leading global travel platform that connects people with unique accommodations and experiences. Our mission is to create a world where anyone can belong anywhere. We strive to build an inclusive and innovative workplace that fosters creativity and collaboration.</p>",
+    "n_emps": "6000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      { "review": "Poor work-life balance", "isgood": false },
+      {
+        "review": "Lack of diversity in leadership positions",
+        "isgood": false
+      },
+      { "review": "Benefits and perks are not great", "isgood": false }
+    ],
+    "totalApplicants": 180,
+    "benefits": [
+      { "perk": "Remote Work", "icon": "/stock_icons/home-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-18",
+    "companyLogo": "/company-icons/apple-logo.svg",
+    "companyName": "Apple",
+    "location": "Hyderabad",
+    "role": "iOS Developer",
+    "description": "Develop and enhance Apple's iOS applications with cutting-edge features.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-5", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Apple is a global technology innovator dedicated to designing world-class hardware, software, and services. Our mission is to create products that enrich lives and push the boundaries of what’s possible. We foster a culture of excellence, inclusion, and continuous learning.</p>",
+    "n_emps": "150000+ Employees",
+    "hq": "Cupertino, CA",
+    "reviews": [
+      { "review": "Favoritism in promotions", "isgood": false },
+      { "review": "Flexible work hours", "isgood": true },
+      { "review": "Remote work options available", "isgood": true },
+      { "review": "Limited learning opportunities", "isgood": false }
+    ],
+    "totalApplicants": 250,
+    "benefits": [{ "perk": "Gym", "icon": "/stock_icons/gym-icon.svg" }]
+  },
+  {
+    "id":"jb-19",
+    "companyLogo": "/company-icons/figma-logo.svg",
+    "companyName": "Figma",
+    "location": "Mumbai",
+    "role": "Product Designer",
+    "description": "Design intuitive user interfaces and collaborate on Figma's innovative design platform.",
+    "positions": "1",
+    "jobtype": "Full-time",
+    "salary": "7-10 Lakhs",
+    "experience": "3 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-4", "jt-1", "slry-4", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Figma is a cutting-edge design platform revolutionizing how teams create and collaborate. Our mission is to make design accessible to everyone, enabling seamless workflows in a digital-first world. We embrace innovation and a diverse, inclusive culture.</p>",
+    "n_emps": "1000+ Employees",
+    "hq": "San Francisco, CA",
+    "reviews": [
+      { "review": "Poor work-life balance", "isgood": false },
+      {
+        "review": "Lack of diversity in leadership positions",
+        "isgood": false
+      },
+      { "review": "Benefits and perks are not great", "isgood": false }
+    ],
+    "totalApplicants": 100,
+    "benefits": [
+      { "perk": "Flexible Hours", "icon": "/stock_icons/clock-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-20",
+    "companyLogo": "/company-icons/ibm-logo.svg",
+    "companyName": "IBM",
+    "location": "Chennai",
+    "role": "Cloud Architect",
+    "description": "Design and implement cloud solutions for enterprise clients.",
+    "positions": "2",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "5 Years",
+    "company_type": "Foreign MNC",
+    "nature": "WFO",
+    "filterable": ["l-6", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>IBM is a global leader in technology and consulting, pioneering advancements in AI, cloud computing, and enterprise solutions. Our mission is to drive innovation that matters, empowering businesses and individuals through intelligent solutions and an inclusive work environment.</p>",
+    "n_emps": "280000+ Employees",
+    "hq": "Armonk, NY",
+    "reviews": [
+      { "review": "Toxic work environment", "isgood": false },
+      { "review": "Encourages upskilling and learning", "isgood": true },
+      { "review": "Unrealistic deadlines", "isgood": false },
+      { "review": "Frequent layoffs create job insecurity", "isgood": false }
+    ],
+    "totalApplicants": 300,
+    "benefits": [
+      { "perk": "Health Insurance", "icon": "/stock_icons/health-icon.svg" }
+    ]
+  },
+  {
+    "id":"jb-21",
+    "companyLogo": "/company-icons/netflix-logo.svg",
+    "companyName": "Netflix",
+    "location": "Delhi NCR",
+    "role": "Backend Engineer",
+    "description": "Build and optimize Netflix's content streaming backend systems.",
+    "positions": "3",
+    "jobtype": "Full-time",
+    "salary": "10+ Lakhs",
+    "experience": "4 Years",
+    "company_type": "Foreign MNC",
+    "nature": "Hybrid",
+    "filterable": ["l-1", "jt-1", "slry-5", "ct-2"],
+    "jobRequirements": "<p><strong>Job Requirements</strong></p><ul><li>Bachelor's degree in Computer Science, Information Technology, or a related field.</li><li>3+ years of professional experience in software development.</li><li>Proficiency in JavaScript, React, and Node.js.</li><li>Strong problem-solving skills and the ability to think critically.</li><li>Experience with front-end technologies such as HTML, CSS, and JavaScript frameworks.</li><li>Familiarity with version control systems like Git.</li><li>Understanding of RESTful APIs and web services.</li><li>Knowledge of database systems such as MySQL, PostgreSQL, or MongoDB.</li><li>Excellent debugging and optimization skills.</li><li>Ability to write clean, maintainable, and efficient code.</li><li>Strong communication and collaboration skills.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure is a plus.</li><li>Familiarity with CI/CD pipelines and DevOps practices is a plus.</li></ul>",
+    "jobdscrp": "<p><strong>Role & Responsibilities</strong></p><ul><li>Develop and maintain web applications using JavaScript, React, and Node.js.</li><li>Collaborate with cross-functional teams to define, design, and ship new features.</li><li>Write clean, maintainable, and efficient code.</li><li>Participate in code reviews and provide constructive feedback to peers.</li><li>Troubleshoot and debug applications to ensure optimal performance.</li><li>Stay up-to-date with emerging technologies and industry trends.</li><li>Mentor junior developers and contribute to team knowledge sharing.</li><li>Assist in the design and architecture of new software solutions.</li></ul><p><strong>Preferred Candidate Profile</strong></p><ul><li>Experience in full-cycle software development.</li><li>Excellent problem-solving and analytical skills.</li><li>Strong communication and teamwork abilities.</li><li>Ability to work in a fast-paced and dynamic environment.</li><li>Experience with Agile development methodologies.</li><li>Knowledge of cloud platforms such as AWS or Azure.</li><li>Familiarity with CI/CD pipelines and DevOps practices.</li></ul>",
+    "abtcmpny": "<p>Netflix is a world-renowned entertainment platform committed to bringing exceptional storytelling to audiences worldwide. Our mission is to entertain the world by delivering high-quality content and an unmatched viewing experience. We value creativity, collaboration, and a diverse workforce.</p>",
+    "n_emps": "12000+ Employees",
+    "hq": "Los Gatos, CA",
+    "reviews": [
+      { "review": "Lack of career growth opportunities", "isgood": false },
+      { "review": "Diverse and inclusive workplace", "isgood": true },
+      { "review": "Company policies are outdated", "isgood": false }
+    ],
+    "totalApplicants": 220,
+    "benefits": [
+      { "perk": "Paid Time Off", "icon": "/stock_icons/vacation-icon.svg" }
+    ]
+  }
+]

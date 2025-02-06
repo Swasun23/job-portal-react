@@ -5,42 +5,54 @@ import filterData from "../assets/data/filterdata.jsx";
 import Jobcard from "@/components/Jobcard";
 import Footer from "@/components/Footer.jsx";
 import BottomDrawer from "@/components/MainPage/BottomDrawer.jsx";
+import { useSearchParams } from "react-router-dom";
 
 const MainPage = () => {
-  const [selectedItems, setSelectedItems] = useState(
-    filterData.reduce((acc, filter) => {
+  const [searchParams, setSearchParams] = useSearchParams(); // Manage URL params
+
+  // Initialize selectedItems from URL params
+  const [selectedItems, setSelectedItems] = useState(() => {
+    const params = Object.fromEntries(searchParams.entries());
+    return filterData.reduce((acc, filter) => {
       filter.items.forEach((item) => {
-        acc[item.id] = false;
+        acc[item.id] = params[item.id] === "true"; // Convert string to boolean
       });
       return acc;
-    }, {})
-  );
+    }, {});
+  });
 
   const [jobs, setJobsData] = useState([]); // All jobs
   const [currentPage, setCurrentPage] = useState(1);
   const [jobsPerPage, setJobsPerPage] = useState(10); // Default jobs per page
 
+  // Update URL params when selectedItems change
   useEffect(() => {
-    fetch("/data/jobs.json")
+    const newParams = Object.keys(selectedItems)
+      .filter((key) => selectedItems[key]) // Only include selected filters
+      .reduce((acc, key) => {
+        acc[key] = "true"; // Store in URL as string
+        return acc;
+      }, {});
+
+    setSearchParams(newParams); // Update URL
+  }, [selectedItems, setSearchParams]);
+
+  useEffect(() => {
+    fetch("/data/gptgenjobs.json")
       .then((response) => response.json())
       .then((data) => {
-        // Apply filtering logic
         console.log("Selected Items:", JSON.stringify(selectedItems, null, 2));
-        const filteredJobs = data.filter((job) => {
-          return Object.keys(selectedItems).every((filterKey) => {
-            if (!selectedItems[filterKey]) return true; // If filter is not selected, include all
-            
-            // Check if job's filterable list contains the selected filter id
-            return job.filterable.includes(filterKey);
-          });
-        });
-  
-         setJobsData(filteredJobs);
+        const filteredJobs = data.filter((job) =>
+          Object.keys(selectedItems).every((filterKey) =>
+            !selectedItems[filterKey] ? true : job.filterable.includes(filterKey)
+          )
+        );
+
+        setJobsData(filteredJobs);
       })
       .catch((error) => console.error("Error fetching jobs data:", error));
-  }, [selectedItems]); // Runs whenever selectedItems changes
+  }, [selectedItems]);
 
-  // Update jobs per page based on screen width
   useEffect(() => {
     const updateJobsPerPage = () => {
       if (window.innerWidth >= 1536) setJobsPerPage(15); // 2XL
@@ -53,16 +65,12 @@ const MainPage = () => {
     return () => window.removeEventListener("resize", updateJobsPerPage);
   }, []);
 
-  // Calculate total pages
   const totalPages = Math.ceil(jobs.length / jobsPerPage);
-
-  // Get jobs for the current page
   const paginatedJobs = jobs.slice(
     (currentPage - 1) * jobsPerPage,
     currentPage * jobsPerPage
   );
 
-  // Handle next & previous buttons
   const goToNextPage = () => {
     if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
   };
@@ -70,6 +78,7 @@ const MainPage = () => {
   const goToPreviousPage = () => {
     if (currentPage > 1) setCurrentPage((prev) => prev - 1);
   };
+
 
   return (
     <main className="bg-purple-200">
@@ -98,9 +107,10 @@ const MainPage = () => {
           {/* Job Listings */}
           <div className="w-full lg:w-2/3 mx-1">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
-              {paginatedJobs.map((job, index) => (
+              {paginatedJobs.map((job) => (
                 <Jobcard
-                  key={index}
+                  key={job.id}
+                  id={job.id}
                   companylogo={job.companyLogo}
                   companyName={job.companyName}
                   location={job.location}

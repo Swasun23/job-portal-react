@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 
 const Jobcard = ({
+  id,
   companylogo,
   companyName,
   location,
@@ -55,7 +56,7 @@ const Jobcard = ({
         </div>
         <div className="flex flex-row justify-start space-x-2 my-auto">
             <button className="p-2 font-semibold bg-purple-800 text-white rounded-lg">Apply now</button>
-            <button className="p-2 font-semibold border rounded-lg" onClick={() => navigate("/jobs-info")}>View Details</button>
+            <button className="p-2 font-semibold border rounded-lg" onClick={() => navigate(`/jobs-info/${id}`)}>View Details</button>
         </div>
       </div>
     </div>
@@ -63,6 +64,7 @@ const Jobcard = ({
 };
 
 Jobcard.propTypes = {
+  id:PropTypes.string.isRequired,
   companylogo: PropTypes.string.isRequired,
   companyName: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

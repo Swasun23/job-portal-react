@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/jobs" element={<Mainpage />} />
-        <Route path="/jobs-info" element={<Jobinfopage />} />
+        <Route path="/jobs-info/:id" element={<Jobinfopage />} />
       </Routes>
     </Router>
   );
