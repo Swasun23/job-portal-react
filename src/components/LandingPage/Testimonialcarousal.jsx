@@ -25,12 +25,12 @@ const testimonials = [
 
 export default function TestimonialCarousel() {
   return (
-    <div className="w-full max-w-lg mx-auto">
+    <div className="w-full max-w-lg mx-auto relative">
       <Carousel>
         <CarouselContent>
           {testimonials.map((testimonial, index) => (
             <CarouselItem key={index} className="flex justify-center">
-              <Card className="w-60 lg:w-200 shadow-xl border p-6 bg-purple-600">
+              <Card className="w-40 md:80 lg:w-96 shadow-xl border p-6 bg-purple-600">
                 <CardContent className="flex flex-col items-center text-center space-y-3">
                   <p className="text-sm lg:text-lg font-semibold text-white">{testimonial.name}</p>
                   <p className="text-xs lg:text-sm text-white">{testimonial.role}</p>
@@ -51,9 +51,16 @@ export default function TestimonialCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+
+        {/* Adjusted Arrow Buttons */}
+        <div className="absolute top-1/2 left-[30%] md:left-[10%] transform -translate-y-1/2">
+          <CarouselPrevious className="p-2 bg-purple-600 text-white rounded-full shadow-md hover:bg-purple-700" />
+        </div>
+        <div className="absolute top-1/2 right-[30%] md:right-[10%] transform -translate-y-1/2">
+          <CarouselNext className="p-2 bg-purple-600 text-white rounded-full shadow-md hover:bg-purple-700" />
+        </div>
       </Carousel>
     </div>
   );
 }
+

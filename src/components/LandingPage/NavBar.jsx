@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <>
-            <div className='flex flex-row justify-between items-center p-4 font-bold text-gray-500 mx-3 2xl:text-2xl'>
+            <div className='flex flex-row justify-between items-center px-4 xl:px-[8rem] py-4 font-bold text-gray-500 mx-3 2xl:text-xl'>
                 <div onClick={() => navigate("/")}><Brandlogo /></div>
                 <div className='hidden lg:flex space-x-8 items-center'>
                     <a href="#home" className='text-gray-700 hover:text-gray-900'>Home</a>
@@ -19,8 +19,8 @@ const NavBar = () => {
                     <a href="#jobs" className='text-gray-700 hover:text-gray-900'>Jobs</a>
                     <a href="#services" className='text-gray-700 hover:text-gray-900'>Services</a>
                     <a href="#contact" className='text-gray-700 hover:text-gray-900'>Contact Us</a>
-                    <button className='bg-white px-4 py-2 text-black rounded border border-black'>Login</button>
-                    <button className='bg-purple-800 text-white px-4 py-2 rounded'>Register</button>
+                    <button className='bg-white px-4 py-2 text-black rounded-lg border border-black'>Login</button>
+                    <button className='bg-purple-700 text-white px-4 py-2 rounded-lg'>Register</button>
                 </div>
                 <div className='lg:hidden'>
                     <button onClick={toggleMenu} className='text-gray-700 focus:outline-none'>

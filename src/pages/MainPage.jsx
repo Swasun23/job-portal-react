@@ -55,8 +55,10 @@ const MainPage = () => {
 
   useEffect(() => {
     const updateJobsPerPage = () => {
-      if (window.innerWidth >= 1536) setJobsPerPage(15); // 2XL
-      else if (window.innerWidth >= 1024) setJobsPerPage(10); // LG
+      if (window.innerWidth >= 2460) setJobsPerPage(20); // 2XL
+      else if (window.innerWidth >= 1440) setJobsPerPage(15); // xl
+      else if (window.innerWidth >= 1024) setJobsPerPage(12); // lg
+      else if (window.innerWidth >= 768) setJobsPerPage(9);
       else setJobsPerPage(8); // Mobile & smaller screens
     };
 
@@ -79,15 +81,14 @@ const MainPage = () => {
     if (currentPage > 1) setCurrentPage((prev) => prev - 1);
   };
 
-
   return (
-    <main className="bg-purple-200">
+    <main className="bg-purple-100">
       <div className="flex flex-col">
-        <div className="bg-white">
+        <div className="bg-white sticky shadow-lg">
           <NavBar />
         </div>
         
-        <div className="relative lg:hidden mt-5 left-5">
+        <div className="my-section relative lg:hidden mt-5 left-5">
           {/* Hidden filter option */}
           <BottomDrawer
             setSelectedItems={setSelectedItems}
@@ -95,9 +96,9 @@ const MainPage = () => {
           />
         </div>
         
-        <div className="flex flex-row mx-2 mt-2 mb-2">
+        <div className="flex flex-row mx-2 mt-2 mb-2 justify-center">
           {/* Sidebar Filter (Shown on Large Screens) */}
-          <div className="hidden lg:block w-1/3 2xl:w-1/4 mx-auto xl:justify-items-center 2xl:mx-0 2xl:justify-end">
+          <div className="hidden lg:block">
             <Filterdock
               selectedItems={selectedItems}
               setSelectedItems={setSelectedItems}
@@ -106,23 +107,29 @@ const MainPage = () => {
 
           {/* Job Listings */}
           <div className="w-full lg:w-2/3 mx-1">
-            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
-              {paginatedJobs.map((job) => (
-                <Jobcard
-                  key={job.id}
-                  id={job.id}
-                  companylogo={job.companyLogo}
-                  companyName={job.companyName}
-                  location={job.location}
-                  role={job.role}
-                  description={job.description}
-                  positions={job.positions}
-                  jobtype={job.jobtype}
-                  salary={job.salary}
-                  experience={job.experience}
-                  nature={job.nature}
-                />
-              ))}
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-2">
+              {paginatedJobs.length === 0 ? (
+                <div className="col-span-full text-center text-lg font-semibold text-gray-600 mt-8">
+                  No jobs found for the selected filters.
+                </div>
+              ) : (
+                paginatedJobs.map((job) => (
+                  <Jobcard
+                    key={job.id}
+                    id={job.id}
+                    companylogo={job.companyLogo}
+                    companyName={job.companyName}
+                    location={job.location}
+                    role={job.role}
+                    description={job.description}
+                    positions={job.positions}
+                    jobtype={job.jobtype}
+                    salary={job.salary}
+                    experience={job.experience}
+                    nature={job.nature}
+                  />
+                ))
+              )}
             </div>
 
             {/* Pagination Controls */}
@@ -132,7 +139,7 @@ const MainPage = () => {
                   onClick={goToPreviousPage}
                   disabled={currentPage === 1}
                   className={`px-4 py-2 text-white rounded ${
-                    currentPage === 1 ? "bg-gray-400" : "bg-purple-800 hover:bg-purple-900"
+                    currentPage === 1 ? "bg-gray-400" : "bg-purple-700 hover:bg-purple-900"
                   }`}
                 >
                   Previous
@@ -144,7 +151,7 @@ const MainPage = () => {
                   onClick={goToNextPage}
                   disabled={currentPage === totalPages}
                   className={`px-4 py-2 text-white rounded ${
-                    currentPage === totalPages ? "bg-gray-400" : "bg-purple-800 hover:bg-purple-900"
+                    currentPage === totalPages ? "bg-gray-400" : "bg-purple-700 hover:bg-purple-900"
                   }`}
                 >
                   Next
@@ -154,7 +161,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <div className="bg-white">
+        <div className="bg-gray-200">
           <Footer />
         </div>
       </div>

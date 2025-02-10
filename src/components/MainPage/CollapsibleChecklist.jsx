@@ -22,7 +22,7 @@ const CollapsibleChecklist = ({ title = "Topic", items = [], selectedItems, setS
         onClick={toggleCollapsible}
         className="w-full flex items-center justify-between p-4 hover:bg-gray-50 "
       >
-        <span className="font-medium">{title}</span>
+        <span className="font-bold">{title}</span>
         <div 
           className={`transform transition-transform duration-300 ease-in-out ${
             isOpen ? 'rotate-90' : 'rotate-0'
@@ -46,9 +46,9 @@ const CollapsibleChecklist = ({ title = "Topic", items = [], selectedItems, setS
                 type="checkbox"
                 checked={selectedItems[item.id]}
                 onChange={() => handleCheckboxChange(item.id)}
-                className="h-4 w-4 rounded border-gray-300 accent-purple-800"
+                className="h-4 w-4 rounded font-semibold border-gray-300 accent-purple-700"
               />
-              <span className="text-gray-700 font-light text-sm">{item.label}</span>
+              <span className="text-gray-600 font-semibold text-sm">{item.label}</span>
             </label>
           ))}
         </div>

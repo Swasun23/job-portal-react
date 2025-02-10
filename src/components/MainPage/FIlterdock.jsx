@@ -12,9 +12,9 @@ const Filterdock = ({ selectedItems, setSelectedItems }) => {
     <div className="max-w-80">
       <div className="flex flex-col rounded-2xl border-1 border-gray-200 shadow-2xs bg-white">
         <div className="flex flex-row justify-between items-center mt-3 mx-5">
-          <div className="font-extrabold text-lg">All filters</div>
+          <div className="font-extrabold text-lg">Filter Jobs</div>
           <button
-            className="border-1 border-purple-800 rounded-xl text-purple-800 font-bold font-sans-serif hover:bg-puple-800 hover:text-white hover:bg-purple-800 hover:cursor-pointer p-2 "
+            className=" border-2 border-purple-700 rounded-xl text-purple-700 font-bold font-sans-serif hover:bg-puple-800 hover:text-white hover:bg-purple-700 hover:cursor-pointer p-2 "
             onClick={clearSelectedItems}
           >
             Clear All

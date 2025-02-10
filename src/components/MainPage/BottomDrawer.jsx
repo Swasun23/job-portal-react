@@ -17,7 +17,7 @@ export default function BottomDrawer({ selectedItems, setSelectedItems }) {
       {/* Button to Open Drawer (Hides when Open) */}
       {!isOpen && (
         <button
-          className="text-md text-white bg-purple-800 p-2 rounded"
+          className="font-sans text-md text-white bg-purple-700 p-2 rounded"
           onClick={() => setIsOpen(true)}
         >
           Filter
@@ -58,7 +58,7 @@ export default function BottomDrawer({ selectedItems, setSelectedItems }) {
                   key={filter.title}
                   className={`${
                     selectedfilter === filter.title
-                      ? "border-l-4 border-l-purple-800"
+                      ? "border-l-4 border-l-purple-700"
                       : "bg-gray-200"
                   }`}
                 >
@@ -87,7 +87,7 @@ export default function BottomDrawer({ selectedItems, setSelectedItems }) {
                             type="checkbox"
                             checked={selectedItems[item.id] || false}
                             onChange={() => handleCheckboxChange(item.id)}
-                            className="h-4 w-4 rounded border-gray-300 accent-purple-800"
+                            className="h-4 w-4 rounded border-gray-300 accent-purple-700"
                           />
                           <span className="text-gray-700 font-light text-sm">
                             {item.label}
